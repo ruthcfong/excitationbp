@@ -303,12 +303,12 @@ def make_grad_params(fn):
 def _bind_functions():
     classes = [
         'SpatialConvolutionMM',
-        'VolumetricConvolution',
+        #'VolumetricConvolution',
         'VolumetricConvolutionMM',
         'SpatialDilatedConvolution',
         'VolumetricDilatedConvolution',
-        'SpatialFullConvolution',
-        'VolumetricFullConvolution',
+        #'SpatialFullConvolution',
+        #'VolumetricFullConvolution',
     ]
     fns = function_by_name
     for name in classes:
